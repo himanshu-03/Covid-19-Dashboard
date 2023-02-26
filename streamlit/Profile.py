@@ -2,8 +2,6 @@ import streamlit as st
 from pathlib import Path
 from PIL import Image
 
-current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-profile = current_dir / "resources" / "images" / "profile.png"
 
 NAME = "Himanshu Agarwal"
 DESCRIPTION = """Data Scientist | Web Developer | Blockchain Enthusiast"""
