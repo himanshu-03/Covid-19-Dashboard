@@ -3,14 +3,13 @@ from pathlib import Path
 from PIL import Image
 
 
-IMAGE_PATH = os.path.join("resources", "images", "Profile.png")
+img = Image.open('streamlit/resources/images/Profile.png')
 NAME = "Himanshu Agarwal"
 DESCRIPTION = """Data Scientist | Web Developer | Blockchain Enthusiast"""
 EMAIL = ":e-mail: himanshuaaagarwal20022gmail.com"
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    img = image.imread(IMAGE_PATH)
     st.image(img,width=400)
 with col2:
     st.title(NAME)
