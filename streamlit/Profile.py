@@ -2,7 +2,7 @@ import streamlit as st
 from pathlib import Path
 from PIL import Image
 
-image = Image.open('resources/images/Profile.png')
+image = Image.open('/resources/images/Profile.png')
 NAME = "Himanshu Agarwal"
 DESCRIPTION = """Data Scientist | Web Developer | Blockchain Enthusiast"""
 EMAIL = ":e-mail: himanshuaaagarwal20022gmail.com"
