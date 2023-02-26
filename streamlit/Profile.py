@@ -2,7 +2,7 @@ import streamlit as st
 from pathlib import Path
 from PIL import Image
 
-st.set_page_config(page_title="Himanshu Agarwal", page_icon="streamlit/resources/images/Profile.png")
+st.set_page_config(page_title="Himanshu Agarwal", page_icon="🚀", layout="wide")
 config = {'displayModeBar': False} 
 
 img = Image.open('streamlit/resources/images/Profile.png')
