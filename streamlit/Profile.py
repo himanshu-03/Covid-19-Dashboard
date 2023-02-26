@@ -8,8 +8,6 @@ DESCRIPTION = """Data Scientist | Web Developer | Blockchain Enthusiast"""
 EMAIL = ":e-mail: himanshuaaagarwal20022gmail.com"
 
 col1, col2 = st.columns(2, gap="small")
-with col1:
-    st.image(profile, width=400)
 
 with col2:
     st.title(NAME)
