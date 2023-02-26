@@ -2,15 +2,8 @@ import streamlit as st
 from pathlib import Path
 from PIL import Image
 
-# absolute path to this file
-FILE_DIR = os.path.dirname(os.path.abspath(__file__))
-# absolute path to this file's root directory
-PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
-# absolute path of directory_of_interest
-dir_of_interest = os.path.join(PARENT_DIR, "resources")
 
-
-IMAGE_PATH = os.path.join(dir_of_interest, "images", "Profile.png")
+IMAGE_PATH = os.path.join("resources", "images", "Profile.png")
 NAME = "Himanshu Agarwal"
 DESCRIPTION = """Data Scientist | Web Developer | Blockchain Enthusiast"""
 EMAIL = ":e-mail: himanshuaaagarwal20022gmail.com"
