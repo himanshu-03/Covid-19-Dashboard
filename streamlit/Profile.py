@@ -2,14 +2,15 @@ import streamlit as st
 from pathlib import Path
 from PIL import Image
 
-image = Image.open('/resources/images/Profile.png')
+profile = current_dir / "resources" / "images" / "profile.png"
+
 NAME = "Himanshu Agarwal"
 DESCRIPTION = """Data Scientist | Web Developer | Blockchain Enthusiast"""
 EMAIL = ":e-mail: himanshuaaagarwal20022gmail.com"
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.image(image, width=400)
+    st.image(profile, width=400)
 
 with col2:
     st.title(NAME)
