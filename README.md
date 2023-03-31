@@ -2,7 +2,7 @@
 
 ## 📌 Problem Definition
 
-Real Time Data Visualization of Covid-19 in India
+COVID-19 Dashboard is a web application that presents real-time data and visualizations related to the COVID-19 pandemic, such as case numbers, hospitalizations, deaths, and vaccination rates, all in one place. It allows users to explore the latest COVID-19 trends and statistics in a user-friendly and interactive manner.
 <br><br>
 
 
